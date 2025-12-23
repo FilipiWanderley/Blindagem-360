@@ -15,7 +15,7 @@ function Home() {
           <button className="btn-primary">Comprar</button>
         </div>
         <img 
-          src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" 
           alt="Segurança Digital Futurista" 
           className="hero-image" 
         />
