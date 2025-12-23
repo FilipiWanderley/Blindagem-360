@@ -71,7 +71,7 @@ function Home() {
       <section className="key-features" id="services">
         <div className="bg-decoration deco-bottom-left"></div>
         <img 
-          src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80" 
           alt="Tecnologia de Proteção" 
           className="key-features-image" 
         />
