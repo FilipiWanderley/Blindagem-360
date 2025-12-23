@@ -47,7 +47,7 @@ function Services() {
       <section className="key-features">
         <div className="bg-decoration deco-bottom-left"></div>
         <img 
-          src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=800&q=80" 
           alt="Tecnologia de Proteção" 
           className="key-features-image" 
         />

@@ -15,7 +15,7 @@ function Home() {
           <button className="btn-primary">Comprar</button>
         </div>
         <img 
-          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80" 
           alt="Segurança Digital Futurista" 
           className="hero-image" 
         />
@@ -25,7 +25,7 @@ function Home() {
       <section className="about-section" id="about">
         <div className="bg-decoration deco-middle-right"></div>
         <img 
-          src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80" 
           alt="Equipe de Segurança" 
           className="about-image" 
         />
@@ -71,7 +71,7 @@ function Home() {
       <section className="key-features" id="services">
         <div className="bg-decoration deco-bottom-left"></div>
         <img 
-          src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=800&q=80" 
           alt="Tecnologia de Proteção" 
           className="key-features-image" 
         />

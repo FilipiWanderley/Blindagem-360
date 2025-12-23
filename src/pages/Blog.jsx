@@ -8,7 +8,7 @@ function Blog() {
       excerpt: "Descubra o que esperar do cenário de ameaças este ano e como se proteger.",
       date: "22 Dez 2024",
       author: "Ana Pereira",
-      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&q=80"
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ function Blog() {
       excerpt: "Um guia prático para adotar a arquitetura de segurança Zero Trust.",
       date: "15 Dez 2024",
       author: "Carlos Silva",
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400&q=80"
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ function Blog() {
       excerpt: "Por que senhas não são mais suficientes e como a 2FA salva o dia.",
       date: "10 Dez 2024",
       author: "Roberto Alves",
-      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=400&q=80"
     }
   ];
 

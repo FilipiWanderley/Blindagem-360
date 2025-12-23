@@ -6,7 +6,7 @@ function About() {
       <section className="about-section">
         <div className="bg-decoration deco-middle-right"></div>
         <img 
-          src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80" 
           alt="Equipe de Segurança" 
           className="about-image" 
         />

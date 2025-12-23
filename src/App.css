@@ -504,37 +504,45 @@ section {
   position: absolute;
   width: 600px;
   height: 600px;
-  background-image: radial-gradient(rgba(0, 212, 255, 0.4) 2px, transparent 2px);
-  background-size: 24px 24px;
+  background: 
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+  mask-image: radial-gradient(circle, black 30%, transparent 70%);
+  -webkit-mask-image: radial-gradient(circle, black 30%, transparent 70%);
   z-index: 0;
   pointer-events: none;
   opacity: 0.6;
-  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  filter: blur(1px);
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(0, 212, 255, 0.05);
+  animation: pulse 8s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1) rotate(0deg); opacity: 0.4; }
+  50% { transform: scale(1.05) rotate(2deg); opacity: 0.6; }
+  100% { transform: scale(1) rotate(0deg); opacity: 0.4; }
 }
 
 .deco-top-left {
-  top: -100px;
-  left: -100px;
-  transform: rotate(-15deg);
+  top: -150px;
+  left: -150px;
 }
 
 .deco-middle-right {
   top: 50%;
-  right: -200px;
-  transform: translateY(-50%) rotate(15deg);
+  right: -250px;
+  transform: translateY(-50%);
 }
 
 .deco-bottom-left {
-  bottom: -100px;
-  left: -200px;
-  transform: rotate(45deg);
+  bottom: -150px;
+  left: -250px;
 }
 
 .deco-footer-right {
-  bottom: -50px;
+  bottom: -100px;
   right: -100px;
-  transform: rotate(-10deg);
   width: 500px;
   height: 500px;
 }
