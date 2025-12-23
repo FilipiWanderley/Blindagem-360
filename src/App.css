@@ -442,8 +442,18 @@ section {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
-  font-size: 1.25rem;
   cursor: pointer;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--text-secondary);
+  transition: fill 0.3s;
+}
+
+.social-icons a:hover .social-icon {
+  fill: var(--primary-color);
 }
 
 .footer-links, .footer-contact, .footer-newsletter {
