@@ -27,13 +27,21 @@ function App() {
           </p>
           <button className="btn-primary">Comprar</button>
         </div>
-        <div className="hero-image-placeholder"></div>
+        <img 
+          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" 
+          alt="Segurança Digital Futurista" 
+          className="hero-image" 
+        />
       </header>
 
       {/* About Section */}
       <section className="about-section" id="about">
         <div className="bg-decoration deco-middle-right"></div>
-        <div className="about-image-placeholder"></div>
+        <img 
+          src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" 
+          alt="Equipe de Segurança" 
+          className="about-image" 
+        />
         <div className="about-content">
           <span className="section-subtitle">SOBRE NÓS</span>
           <h2>Descubra Nossa Jornada Protegendo Seu Mundo Digital Com Experiência e Cuidado</h2>
@@ -75,7 +83,11 @@ function App() {
       {/* Key Service Features */}
       <section className="key-features" id="services">
         <div className="bg-decoration deco-bottom-left"></div>
-        <div className="key-features-image-placeholder"></div>
+        <img 
+          src="https://images.unsplash.com/photo-1563206767-5b1d97289374?auto=format&fit=crop&w=800&q=80" 
+          alt="Tecnologia de Proteção" 
+          className="key-features-image" 
+        />
         <div className="key-features-content">
           <span className="section-subtitle">POR QUE NÓS</span>
           <h2>Principais Recursos de Serviço Protegendo Você</h2>
@@ -194,7 +206,7 @@ function App() {
           <div className="testimonial-card">
             <p>"Excelente serviço! A equipe é muito profissional e competente."</p>
             <div className="user-info">
-              <div className="avatar"></div>
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Maria Garcia" className="avatar" />
               <div>
                 <h4>Maria Garcia</h4>
                 <div className="stars">★★★★★</div>
@@ -204,7 +216,7 @@ function App() {
           <div className="testimonial-card">
             <p>"Sinto-me muito mais seguro com a Blindagem 360 cuidando dos meus dados."</p>
             <div className="user-info">
-              <div className="avatar"></div>
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Roberto Alves" className="avatar" />
               <div>
                 <h4>Roberto Alves</h4>
                 <div className="stars">★★★★★</div>
@@ -214,7 +226,7 @@ function App() {
           <div className="testimonial-card">
             <p>"A resposta a incidentes foi incrivelmente rápida. Recomendo!"</p>
             <div className="user-info">
-              <div className="avatar"></div>
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Ana Pereira" className="avatar" />
               <div>
                 <h4>Ana Pereira</h4>
                 <div className="stars">★★★★★</div>
@@ -224,7 +236,7 @@ function App() {
           <div className="testimonial-card">
             <p>"O melhor investimento que fizemos para a nossa empresa este ano."</p>
             <div className="user-info">
-              <div className="avatar"></div>
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80" alt="Carlos Silva" className="avatar" />
               <div>
                 <h4>Carlos Silva</h4>
                 <div className="stars">★★★★★</div>
