@@ -276,32 +276,57 @@ section {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 12px;
+  background: linear-gradient(145deg, #1a1a1a 0%, #0a0a0a 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
   flex: 1;
   min-width: 280px;
-  text-align: left;
-  transition: transform 0.3s;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   border-color: var(--primary-color);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
 }
 
 .icon-circle {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: rgba(0, 212, 255, 0.1);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
   color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto 1.5rem;
+  transition: all 0.3s;
+}
+
+.card:first-child .icon-circle {
+  background-color: var(--primary-color);
+  color: #000;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+}
+
+.card:first-child {
+  border-color: var(--primary-color);
+}
+
+.card h3 {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #a3a3a3;
 }
 
 /* Key Features Grid */
@@ -315,9 +340,9 @@ section {
   flex: 1;
   width: 100%;
   max-width: 600px;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 24px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
@@ -328,20 +353,78 @@ section {
 .feature-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
 .feature-item {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 8px;
+  background: linear-gradient(180deg, #1e1e1e 0%, #121212 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .feature-icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.feature-icon svg {
+  width: 48px;
+  height: 48px;
+  stroke-width: 1.5;
+}
+
+.feature-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* Social Icons in Footer */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  border-color: var(--primary-color);
   color: var(--primary-color);
+  transform: translateY(-3px);
+  background-color: rgba(0, 212, 255, 0.05);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /* Mission Section */
