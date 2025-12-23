@@ -25,6 +25,11 @@ body {
   overflow-x: hidden;
 }
 
+.page-container {
+  padding-top: 8rem;
+  min-height: 100vh;
+}
+
 /* Typography */
 h1 {
   font-size: 3.5rem;
