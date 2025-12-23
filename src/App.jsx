@@ -84,7 +84,7 @@ function App() {
       <section className="key-features" id="services">
         <div className="bg-decoration deco-bottom-left"></div>
         <img 
-          src="https://images.unsplash.com/photo-1563206767-5b1d97289374?auto=format&fit=crop&w=800&q=80" 
+          src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" 
           alt="Tecnologia de Proteção" 
           className="key-features-image" 
         />
@@ -160,7 +160,7 @@ function App() {
           <div className="pricing-card">
             <h3>BÁSICO</h3>
             <p>Proteção essencial para iniciantes.</p>
-            <div className="price">$99 <span>/ mês</span></div>
+            <div className="price">R$99 <span>/ mês</span></div>
             <ul className="features-list">
               <li>✓ Monitoramento Básico</li>
               <li>✓ Suporte por Email</li>
@@ -173,7 +173,7 @@ function App() {
             <div className="popular-tag">Mais Popular</div>
             <h3>PADRÃO</h3>
             <p>Segurança avançada para crescimento.</p>
-            <div className="price">$199 <span>/ mês</span></div>
+            <div className="price">R$199 <span>/ mês</span></div>
             <ul className="features-list">
               <li>✓ Tudo do Básico</li>
               <li>✓ Monitoramento 24/7</li>
@@ -186,7 +186,7 @@ function App() {
           <div className="pricing-card">
             <h3>PREMIUM</h3>
             <p>Segurança completa para empresas.</p>
-            <div className="price">$399 <span>/ mês</span></div>
+            <div className="price">R$399 <span>/ mês</span></div>
             <ul className="features-list">
               <li>✓ Tudo do Padrão</li>
               <li>✓ Consultoria Dedicada</li>
