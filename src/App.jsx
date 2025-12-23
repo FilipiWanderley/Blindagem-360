@@ -6,7 +6,7 @@ function App() {
     <div className="app-container">
       {/* Navigation */}
       <nav className="navbar">
-        <div className="logo">CyberSec</div>
+        <div className="logo">Blindagem 360</div>
         <div className="nav-links">
           <a href="#home" className="active">Início</a>
           <a href="#about">Sobre</a>
@@ -141,7 +141,7 @@ function App() {
       {/* Pricing Section */}
       <section className="pricing-section">
         <span className="section-subtitle">PREÇOS</span>
-        <h2>Comece a Usar o Cyber Security Protect</h2>
+        <h2>Comece a Usar o Blindagem 360</h2>
         <p className="section-description">Escolha o plano que melhor se adapta às suas necessidades.</p>
 
         <div className="pricing-cards">
@@ -202,7 +202,7 @@ function App() {
             </div>
           </div>
           <div className="testimonial-card">
-            <p>"Sinto-me muito mais seguro com a CyberSec cuidando dos meus dados."</p>
+            <p>"Sinto-me muito mais seguro com a Blindagem 360 cuidando dos meus dados."</p>
             <div className="user-info">
               <div className="avatar"></div>
               <div>
@@ -239,7 +239,7 @@ function App() {
         <div className="bg-decoration deco-footer-right"></div>
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>CyberSec</h3>
+            <h3>Blindagem 360</h3>
             <p>Protegendo seu futuro digital com excelência e inovação.</p>
             <div className="social-icons">
               <span>🐦</span> <span>📘</span> <span>📸</span> <span>🔗</span>
@@ -256,7 +256,7 @@ function App() {
 
           <div className="footer-contact">
             <h4>Contato</h4>
-            <p>📧 contato@cybersec.com</p>
+            <p>📧 contato@blindagem360.com</p>
             <p>📞 +55 11 99999-9999</p>
             <p>📍 São Paulo, Brasil</p>
           </div>
